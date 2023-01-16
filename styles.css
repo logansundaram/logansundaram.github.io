@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(72, 82, 94);
+    font-family: 'Bitter'
+}
+p{
+    color: rgb(209, 205, 194);
+}
+h1{
+    color: #ffca43d1;
+}
+.title{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+.title h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.backtext{
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.backtext span{
+    display: inline-block;
+    font-size: 150px;
+    opacity: 50%;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    transform: translateY(100px);
+    transition: transform 1s;
+    animation: fade-in 2s;
+}
+ @keyframes fade-in{
+    0%{opacity: 0%;}
+    100%{opacity: 50%;}
+ }
+.backtext span.active{
+    transform: translateY(0px);
+}
+.intro{
+    text-align: center;
+}
