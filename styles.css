@@ -10,7 +10,7 @@ p{
     color: #D4D4CE;
 }
 h1{
-    color: #F6F6F6;
+    color: #D4D4CE;
 }
 .title{
     margin: auto;
@@ -64,10 +64,15 @@ h1{
     font-size: 20px;
     padding: 20px 24px;
 }
+#sidebar ul li :hover{
+    color: #023246;
+    background-color: #D4D4CE;
+}
 #sidebar .toggle-btn{
     position: absolute;
     top: 30px;
     left: 330px;
+    background: 023246;
 }
 .toggle-btn span{
     width: 45px;
