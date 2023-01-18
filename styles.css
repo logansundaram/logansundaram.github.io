@@ -64,7 +64,7 @@ h1{
     font-size: 20px;
     padding: 20px 24px;
 }
-#sidebar ul li :hover{
+#sidebar ul li:hover{
     color: #023246;
     background-color: #D4D4CE;
 }
