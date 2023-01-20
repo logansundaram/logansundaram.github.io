@@ -14,7 +14,7 @@ h1{
 }
 .title{
     margin: auto;
-    width: 30%;
+    width: 40%;
     text-align: center;
     position: relative;
     padding: 50px;
@@ -54,6 +54,7 @@ h1{
     background-color: #000;
     left:-300px;
     transition: .4s;
+    z-index: 99;
 }
 #sidebar.active{
     left: 0;
@@ -63,6 +64,7 @@ h1{
     color: #D4D4CE;
     font-size: 20px;
     padding: 20px 24px;
+    cursor: pointer;
 }
 #sidebar ul li:hover{
     color: #023246;
@@ -84,3 +86,8 @@ h1{
 .intro{
     text-align: center;
 }
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
