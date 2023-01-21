@@ -1,16 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    color: #D4D4CE;
 }
 body{
     background-color: #023246;
     font-family: 'Bitter'
-}
-p{
-    color: #D4D4CE;
-}
-h1{
-    color: #D4D4CE;
 }
 .title{
     margin: auto;
@@ -51,7 +46,7 @@ h1{
     position: absolute;
     width: 300px;
     height:100%;
-    background-color: #000;
+    background-color: #121212;
     left:-300px;
     transition: .4s;
     z-index: 99;
@@ -79,7 +74,7 @@ h1{
 .toggle-btn span{
     width: 45px;
     height: 4px;
-    background: #000;
+    background: #121212;
     display: block;
     margin-top: 4px;
 }
