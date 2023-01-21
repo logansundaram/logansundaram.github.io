@@ -4,7 +4,7 @@
     color: #D4D4CE;
 }
 body{
-    background-color: #023246;
+    background-color: #215888;
     font-family: 'Bitter'
 }
 .title{
@@ -62,7 +62,7 @@ body{
     cursor: pointer;
 }
 #sidebar ul li:hover{
-    color: #023246;
+    color: #215888;
     background-color: #D4D4CE;
 }
 #sidebar .toggle-btn{
