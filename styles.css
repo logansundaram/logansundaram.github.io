@@ -1,88 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    color: #D4D4CE;
+* {
+    background-color: #0A1828;
+    color: #BFA181;
 }
-body{
-    background-color: #215888;
-    font-family: 'Bitter'
-}
-.title{
-    margin: auto;
-    width: 40%;
+
+.header{
     text-align: center;
-    position: relative;
-    padding: 50px;
+    position: fixed;
+    font-size: 200px;
+    width: 100%;
+    top: 0%;
+    z-index: 100;
 }
-.title h1{
-    font-size: 60px;
-    font-weight: 600;
+
+.title {
+    padding-top: 400px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    text-align: left;
+    font-size: 100px;
+    animation: fade-in 1.5s, slide-up 1.5s;
+    white-space: nowrap
 }
-.backtext{
-    width: max-content;
+
+.tabl {
+    font-size: 50px;
+}
+
+.about {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 60%;
+    font-size: 50px;
+    float: left;
+}
+
+.content {
+    font-size:100px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 45%;
+    float: right;
+    margin-right: 50px;
 }
-.backtext span{
-    display: inline-block;
-    font-size: 150px;
-    opacity: 50%;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #D4D4CE;
-    transform: translateY(100px);
-    transition: transform 1s;
-    animation: fade-in 2s;
+
+hr {
+    border-top: solid 2px #BFA181;
+    margin-right: 50px;
 }
- @keyframes fade-in{
-    0%{opacity: 0%;}
-    100%{opacity: 50%;}
- }
-.backtext span.active{
-    transform: translateY(0px);
+
+table {
+    width: 100%;
 }
-#sidebar{
-    position: absolute;
-    width: 300px;
-    height:100%;
-    background-color: #121212;
-    left:-300px;
-    transition: .4s;
-    z-index: 99;
+
+ul {
+    margin-top: 0px;
 }
-#sidebar.active{
-    left: 0;
+
+li {
+    font-size: 75px;
 }
-#sidebar ul li{
-    list-style: none;
-    color: #D4D4CE;
-    font-size: 20px;
-    padding: 20px 24px;
+
+ol {
+    margin-left: 50px;
+}
+
+.proj-description {
+    font-size: 50px;
+}
+
+.skills {
+    margin-top: 50px;
+    float: left;
+    font-size:100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 40%;
+}
+
+button {
+    border: solid;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
     cursor: pointer;
 }
-#sidebar ul li:hover{
-    color: #215888;
-    background-color: #D4D4CE;
-}
-#sidebar .toggle-btn{
-    position: absolute;
-    top: 30px;
-    left: 330px;
-    background: 023246;
-}
-.toggle-btn span{
-    width: 45px;
-    height: 4px;
-    background: #121212;
-    display: block;
-    margin-top: 4px;
-}
-.intro{
+
+
+.contact {
     text-align: center;
+    font-size: 100px;
+    z-index: -1;
+    margin-left: -81.818181%;
+    padding-left: 50px;
 }
-.prevent-select {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-  }
+
+.contactinfo {
+    font-size: 75px;
+}
+
+ @keyframes fade-in{
+    0%{opacity: 0%;}
+    100%{opacity: 100%;}
+ }
+
+ @keyframes slide-up{
+    from {
+        margin-left: 25%;
+      }
+    
+      to {
+        margin-left: 0%;
+      }
+ }

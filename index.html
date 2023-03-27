@@ -4,62 +4,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet'>
+    <title>Untitled.</title>
     <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
 </head>
 <body>
-    <div id="sidebar">
-        <div class="toggle-btn" onclick="show()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </div> 
-
-    <div class="title">
-        <h1 class="prevent-select">Logan's Portfolio</h1>
-        <div class="backtext">
-            <span class="prevent-select">WELCOME</span>
-        </div>
+    <div class="header">
+        untitled.
     </div>
 
-    <div class="intro">
-    <p>Hello, my name is Logan Sundaram.</b> I am young programmer interested in learning MERN fullstack web development along with many other industry standard tools. I am fluent in Java and have completed AP Computer Science A and have recieved a 5 on the exam. I am currently learning CSS, HTML, and Javascript through MIT's xPro Fullstack program and looking to expand into the world of Machine Learning. I am currently a Senior at San Mateo High School located in California. </p><br>
-        <br>
+     <div class="title">
+        hello. enjoy my portfolio. or don't.
     </div>
 
-    <h1>Contacts:</h1><br>
 
-    <h3>Email: viplogan123@gmail.com</h3><br>
-    <h3>LinkedIn: https://www.linkedin.com/in/logan-sundaram-6b5805251/</h3> <br/>
 
-    <h1>Projects:</h1><br>
+    <div class="about">
+        My name is Logan Sundaram. I am young programmer interested in learning MERN fullstack web development along with many other industry standard tools. I am fluent in Java and have completed AP Computer Science A and have recieved a 5 on the exam. I am currently learning CSS, HTML, and Javascript through MIT's xPro Fullstack program and looking to expand into the world of Machine Learning. I am currently a Senior at San Mateo High School located in California.
+    </div>
 
-    <h3 style="color:#D4D4CE;"><a href="https://logansundaram.github.io/Eye-Exercise/" style="color: black">Eye-Exercise</a> -A project that tracks mouse movement with animated eyes. Combines CSS, HTML and JS so the eyball components may track mouse movement smoothly. <br><br>
-        <a href="https://logansundaram.github.io/PacMen-Exercise/" style="color: black">PacMen-Exercise</a>-A project that creates and randomizes the speed of various pacmans that bounce around the browser. Utilizes the DOM to add and control pac-man components and tracking their position in order to create a "bounce" effect when they hit the border.<br><br>
-        <a href="https://logansundaram.github.io/Real-Time-Bus-Tracker/" style="color: black">Real-Time-Bus-Tracker</a>-A project that displays all the stops between MIT and Harvard. Utilizes Mapbox to create the background map and adding and moving a marker compenent to track the stops.<br><br>
-        <a href="http://logan-sundarambankingapplication.s3-website-us-west-2.amazonaws.com/#/" style="color: black">Banking Application</a>-A React application that allows the user to create an account and make deposits and withdrawals. Utlizes routing, keeping track of different states using React.useState, records and manipulates user inputted data with React.useContext, and using and formatting elemtents from Bootstrap. This application was stored in an AWS S3 bucket.</h3>
-        <br>
-        <br>
-        <br>
-    <h1>NOTE: Menu routing needs to be implemented</h1>
-    <script>
-        let spantexts = document.getElementsByTagName("span");
+    <div class="skills">
+        skills.
+        <hr noshade>
+        <ol>
+            <table>
+                <tr>
+                    <th>
+                        <li class="tabl">
+                            mongodb.
+                        </li>
+                    </th>
+                    <th>
+                        <li class="tabl">
+                            graphql.
+                        </li>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <li class="tabl">
+                            express.
+                        </li>
+                    </th>
+                    <th>
+                        <li class="tabl">
+                            AWS.
+                        </li>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <li class="tabl">
+                            react.
+                        </li>
+                    </th>
+                    <th>
+                        <li class="tabl">
+                            docker.
+                        </li>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <li class="tabl">
+                            node.js.
+                        </li>
+                    </th>
+                    <th>
+                        <li class="tabl">
+                            firebase.
+                        </li>
+                    </th>
+                </tr>
+            </table>
+        </ol>
+    </div>
 
-        window.onload = () =>{
-            for(spantext of spantexts){
-                spantext.classList.add("active");
-            }
-        }
 
-    </script>
+
+<div class="tst">
+    <div class="content">
+        <div class="projects">
+            projects.
+            <hr noshade>
+            <ul>
+             <li>
+                eye-exercise.
+                <button onclick="location.href='https://logansundaram.github.io/Eye-Exercise/'">try here.</button>
+                <div class="proj-description">
+                    A project that tracks mouse movement with animated eyes. Combines CSS, HTML and JS so the eyball components may track mouse movement smoothly. 
+                </div>
+             </li>
+             <li>
+                pacman-exercise.
+                <button onclick="location.href='https://logansundaram.github.io/PacMen-Exercise/'">try here.</button>
+                <div class="proj-description">
+                    A project that creates and randomizes the speed of various pacmans that bounce around the browser. Utilizes the DOM to add and control pac-man components and tracking their position in order to create a "bounce" effect when they hit the border.
+                </div>
+             </li>
+             <li>
+                bus-exercise.
+                <button onclick="location.href='https://logansundaram.github.io/Real-Time-Bus-Tracker/'">try here.</button>
+                <div class="proj-description">
+                    A project that displays all the stops between MIT and Harvard. Utilizes Mapbox to create the background map and adding and moving a marker compenent to track the stops.
+                </div>
+             </li>
+             <li>
+                banking-application.
+                <button onclick="location.href='http://logan-sundarambankingapplication.s3-website-us-west-2.amazonaws.com/#/'">try here.</button>
+                <div class="proj-description">
+                    A React application that allows the user to create an account and make deposits and withdrawals. Utlizes routing, keeping track of different states using React.useState, records and manipulates user inputted data with React.useContext, and using and formatting elemtents from Bootstrap. This application was stored in an AWS S3 bucket.
+                </div>
+             </li>
+            </ul>
+        </div>
+        <div class="contact">
+            contact me.
+            <hr noshade>
+            <p class="contactinfo">
+                LinkedIn: https://www.linkedin.com/in/logan-sundaram-6b5805251/
+                <br>
+                Email: viplogan123@gmail.com
+            </p>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
